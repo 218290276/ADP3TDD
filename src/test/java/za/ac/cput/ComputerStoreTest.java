@@ -3,9 +3,14 @@ package za.ac.cput;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
-
-
 import static org.junit.jupiter.api.Assertions.*;
+
+
+/**
+ *To test ComputerStore class
+ * @Ziyaad
+ * date:04/02/2021
+ */
 
 class ComputerStoreTest {
 
