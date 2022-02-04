@@ -60,9 +60,11 @@ class ComputerStoreTest {
         }
     }
 
+    //test disable
     @Disabled
     @Test
     public void testDisable() {
+
         assertEquals(hardrivePrice, hardrive2Price);
     }
 
