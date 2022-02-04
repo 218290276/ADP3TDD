@@ -2,7 +2,7 @@ package za.ac.cput;
 /**
  *To test Calculator class
  * @ Aristoteles
- * date: 04/02/2021
+ * date:04/02/2021
  */
 
 
