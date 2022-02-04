@@ -1,5 +1,11 @@
 package za.ac.cput;
 
+
+/**
+ * Calculate prices of a computer
+ * @Ziyaad
+ * date:04/02/2021
+ */
 public class ComputerStore {
     private int hardrivePrice;
     private int motherboardPrice;
