@@ -14,6 +14,8 @@ public class calculatorTest {
     private calculator app1;
     private calculator app2;
     private calculator app3;
+    public String calculator4;
+
     public calculatorTest() {
     }
 
@@ -23,6 +25,7 @@ public class calculatorTest {
         this.app1 = new calculator();
         this.app2 = new calculator();
         this.app3 = app1;
+        calculator4 = "5";
 
     }
     //test Identity
@@ -42,10 +45,11 @@ public class calculatorTest {
     @AfterEach
     public void tearDown() {
     }
-// Fail test
+    // Fail test
     @Test
     public void testSomeMethod() {
-        fail("the test caswe is a fail");
+       assertSame(app1,calculator4);
+
     }
     @Test
     public void testAddition(){
